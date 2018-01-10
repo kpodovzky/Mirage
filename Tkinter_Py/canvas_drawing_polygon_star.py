@@ -1,3 +1,10 @@
+# Author:  Kpodovzky
+# Email:   josue@kpodovzky.org
+# GitHub:  https://github.com/Kpodovzky
+# Licence: GNU GPL v3
+# Website: https://kpodovzky.org
+# Project: Drawing a star using canvas
+
 from tkinter import * 
 
 def polygon_star(canvas, x,y,p,t,outline='blue', fill='gold', width=1):
