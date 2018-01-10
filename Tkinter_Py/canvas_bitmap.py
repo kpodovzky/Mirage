@@ -1,7 +1,14 @@
+# Author:  Kpodovzky
+# Email:   josue@kpodovzky.org
+# GitHub:  https://github.com/Kpodovzky
+# Licence: GNU GPL v3
+# Website: https://kpodovzky.org
+# Project: A bitmap is an image file format used to store digital images
+
 from tkinter import *
 
-cw=400
-ch=400
+# resolution of the windows
+cw, ch=400
 cw2, ch2= 400,400 
 
 
@@ -23,7 +30,6 @@ canvas.pack(side=LEFT)
 
 img=PhotoImage(master=master2, file='/home/wed/Desktop/Pythonysta/code/Tyro_code/geeks.png')
 canvas.create_image(190,150, image=img)
-
 
 
 mainloop()
