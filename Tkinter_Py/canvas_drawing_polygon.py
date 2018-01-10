@@ -1,3 +1,10 @@
+# Author:  Kpodovzky
+# Email:   josue@kpodovzky.org
+# GitHub:  https://github.com/Kpodovzky
+# Licence: GNU GPL v3
+# Website: https://kpodovzky.org
+# Project: Let's draw some polygon
+
 from tkinter import * 
 
 def polygon_star(canvas, x,y,p,t,outline='blue', fill='gold', width=1):
@@ -15,8 +22,6 @@ def polygon_star(canvas, x,y,p,t,outline='blue', fill='gold', width=1):
 cw=400
 ch=400
 python_blue = 'blue'
-
-
 
 master=Tk()
 w=Canvas(master, width=cw, height=ch)
@@ -36,8 +41,6 @@ step_y = int( ch/nsteps )
 for i in range (1, nsteps):
 	polygon_star(w, i*step_x, i*step_y, p, t, outline='red', fill='gold', width=3)
 	polygon_star(w, i*step_x, ch-i*step_y, p, t, outline='red', fill='gold', width=3)
-
-
 
 
 mainloop()
