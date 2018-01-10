@@ -1,3 +1,10 @@
+# Author:  Kpodovzky
+# Email:   josue@kpodovzky.org
+# GitHub:  https://github.com/Kpodovzky
+# Licence: GNU GPL v3
+# Website: https://kpodovzky.org
+# Project: An attempt to create a minimal text editor
+
 from tkinter import *
 
 def text_on_canvas():
