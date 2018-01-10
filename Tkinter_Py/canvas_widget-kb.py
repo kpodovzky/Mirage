@@ -1,3 +1,10 @@
+# Author:  Kpodovzky    
+# Email:   josue@kpodovzky.org      
+# GitHub:  https://github.com/Kpodovzky  
+# Licence: GNU GPL v3
+# Website: https://kpodovzky.org
+# Project:
+
 '''
 with this widget, it's possible:
 - to draw graphs and plots; 
@@ -6,10 +13,7 @@ with this widget, it's possible:
 
 '''
 
-
-
 from tkinter import *
-
 
 #master=Tk()
 master2=Tk()
