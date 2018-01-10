@@ -1,11 +1,11 @@
+# Author:  Kpodovzky
+# Email:   josue@kpodovzky.org
+# GitHub:  https://github.com/Kpodovzky
+# Licence: GNU GPL v3
+# Website: https://kpodovzky.org
+# Project:
+
 from tkinter import *
-
-'''
-let's write an application for painting or writing into a canvas. 
-Unfortunately, there is no way to paint just one dot into a canvas.
-But we can overcome this problem by using a small oval:
-
-'''
 
 cwidth  = 500  	
 cheight = 150
